@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Implementation</title>
+</head>
+
+<body>
+
+    <h1> Forms Demo</h1>
+    <form action="/tacos">
+
+        <p>
+            <label for="username">Enter username</label>
+            <input type="text" placeholder="username" id="username" name="username">
+
+        </p>
+
+        <!-- id act as a variable to take value from input -->
+        <p>
+            <label for="password"> Enter password</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+
+        <!-- <button type="button">Temporary button</button> -->
+        <p>
+            <label for="color">Enter your favorite color</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <input type="month">
+
+        <p>
+            <label for="number"> Enter your Mobile Number</label>
+            <input type="number" placeholder="Enter a number" id="number" name="number" min="1" max="1000000000">
+            <!-- <input type="time"> -->
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+    <button>Button outside the form</button>
+
+    <p>
+    <form action="/search">
+
+        <label for="query_searched"> Enter anything that is currently running into your mind</label>
+        <input type="text" placeholder="enter any text" id="query_searched" name="query">
+
+        <p></p>
+        <label for="name"> Enter yout email id</label>
+        <input type="email" placeholder="enter your email id" id="name" name="emaildata">
+
+        <button> Submit</button>
+    </form>
+    </p>
+
+    <h2> More types of inputs</h2>
+
+    <form action="">
+
+
+        <input type="checkbox" name="agree_too" id="agree" checked>
+        <label for="agree"> I agree to these terms and conditions</label>
+
+        <!-- radio buttons -->
+        <p></p>
+        <input type="radio" name="size" id="xs" value="extrasmall">
+        <label for="xs">Xs</label>
+        <input type="radio" name="size" id="S" value="small">
+        <label for="S">S</label>
+        <input type="radio" name="size" id="M" value="Medium">
+        <label for="M">M</label>
+
+        <label for="meal"> Select your meal</label>
+
+        <select name="temp" id="meal">
+
+            <option value="Vegetarian" selected>Vegetarian</option>
+            <option value="Non-Vegetarian">Non-Vegetarian</option>
+            <option value="Both">Both</option>
+        </select>
+
+        <p>
+            <label for="value"></label>
+            <input type="range" id="value" min="1" max="100" value="50" name="Cheese_label">
+        </p>
+
+        <button> Submit</button>
+    </form>
+</body>
+
+</html>
