@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline wavy;
+    letter-spacing: 1px;
+    font-size: 80px;
+    /* 
+    they are in a stack as diff browsers don't have some types of built-in fonts in their machine. */
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif, Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1;
+
+}

@@ -1,0 +1,16 @@
+body {
+    color: teal;
+}
+
+h1 {
+    color: blue;
+}
+
+button,
+input {
+    color: inherit;
+}
+
+button:hover {
+    color: orange;
+}

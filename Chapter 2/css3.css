@@ -1,0 +1,103 @@
+/* universal selector */
+/* * {
+    color: pink;
+} */
+
+/* ELement Selector */
+h1,
+h2 {
+    color: teal;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    background-color: #f1f2f3;
+}
+
+
+/* Id Selector */
+/* #signup{
+    background-color: #1d4444;
+} */
+
+/* Class Selector we can group together multiple elemnts*/
+
+span {
+    color: #1d4444;
+}
+
+
+.tag {
+    color: blue;
+}
+
+a {
+    color: #457b9d;
+}
+
+/* Descendent Selector */
+.post a {
+    color: red;
+}
+
+
+/* Button that comes immediatelu after h2 */
+h2+button {
+    background-color: teal;
+}
+
+/* Direct Decendant Selector of footer element */
+footer>a {
+    color: magenta;
+}
+
+
+/* Attributes Selectors */
+input [type="password"] {
+    color: greenyellow;
+}
+
+
+section [class="posts"] {
+    background-color: blueviolet;
+}
+
+a[href="#google"] {
+    color: magenta;
+}
+
+h2+button:hover {
+    background-color: red;
+}
+
+
+/* Pseudo classes */
+button:active {
+    background-color: black;
+}
+
+.post:nth-of-type(2n+1) {
+    background-color: #134b5f;
+}
+
+
+/* Pseudo Elements :: */
+h1::first-letter {
+    color: red;
+    background-color: greenyellow;
+}
+
+p::first-line {
+    color: hsl(203, 25%, 46%);
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
+/* button {
+    background-color: mediumseagreen !important;
+} */

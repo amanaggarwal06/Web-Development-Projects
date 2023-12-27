@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race_Registration_Form</title>
+</head>
+
+<body>
+
+    <form action="/search">
+        <h1>Race Registration!</h1>
+
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" placeholder="firstname" name="firstname" required>
+
+        <label for="lastname">last name</label>
+        <input type="lastname" name="lastname" id="lastname" placeholder="lastname" required>
+
+        <p>Select a Race:
+        <p>
+            <!-- 
+            in radio button value attribute send the option that we've selected. -->
+            <input type="radio" name="race" id="first" value="First Option">
+            <label for="first">First Option</label>
+        </p>
+
+        <div>
+            <input type="radio" name="race" id="second" value="second option">
+            <label for="second">Second option</label>
+        </div>
+
+        </p>
+
+        <p>
+            <label for="Email">Email</label>
+            <input type= "email" name="email" id="Email" placeholder="Type your E-mail Id here" required>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        </p>
+
+        <p>
+            <label for="Age">Select Age Group: </label>
+
+            <select name="value" id="value">
+
+                <option value="first option" selected> Under 18</option>
+                <option value="second option"> 18-40</option>
+                <option value="third option"> Above 40</option>
+
+            </select>
+        </p>
+
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>
