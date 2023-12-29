@@ -1,0 +1,33 @@
+img {
+    width: 30%;
+    margin: calc(10% / 6);
+    transition: all 0.1s;
+}
+
+img:hover {
+    cursor: pointer;
+    box-shadow: 0 0.5em 1.5em -0em #27233a;
+    transform: translateY(-0.25em);
+}
+
+nav {
+
+    width: 30%;
+    margin-left: calc(10% / 6);
+    text-transform: uppercase;
+
+    border-bottom: 2px solid grey;
+
+    font-family: Lato, sans-serif;
+    font-size: 1em;
+    padding: 1.2em 0;
+    transition: ease-in 0.1s;
+
+}
+
+nav:hover {
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    background-color: #eff7f6;
+
+}
